@@ -2,22 +2,20 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { FaAddressBook, FaBuilding, FaFacebook, FaHome, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaBuilding, FaFacebook, FaHome, FaInstagram, FaYoutube, FaHammer, FaMapMarkedAlt } from "react-icons/fa";
 import Image from "next/image";
 
 
 const links = [
   { name: "Home", href: "/home", icon: <FaHome /> },
-  { name: "Propiedades", href: "/properties", icon: <FaBuilding /> },
-  { name: "Construcción", href: "/builds", icon: <FaBuilding /> },
-  { name: "Contacto", href: "/about", icon: <FaAddressBook /> },
+  { name: "Propiedades", href: "/properties", icon: <FaMapMarkedAlt /> },
+  { name: "Construcción", href: "/builds", icon: <FaHammer /> },
 ];
 
 const socialLinks = [
   { name: "Facebook", href: "https://facebook.com", icon: <FaFacebook size={38} /> },
   { name: "Instagram", href: "https://facebook.com", icon: <FaInstagram size={40} /> },
   { name: "YouTube", href: "https://facebook.com", icon: <FaYoutube size={48} /> },
-  // Puedes agregar más enlaces sociales aquí
 ];
 
 export default function Navbar() {
@@ -25,7 +23,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white bg-opacity-50 backdrop-blur shadow z-50">
-      <div className="container flex items-center justify-between px-6 py-4 mx-auto text-verdePrimario capitalize">
+      <div className="container flex items-center justify-between px-6 py-4 mx-auto text-verdePrimario capitalize h-25">
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">
