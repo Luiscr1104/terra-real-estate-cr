@@ -50,7 +50,7 @@ export function BackgroundGradientDemo() {
         {cards.map((card, index) => (
           <BackgroundGradient
             key={index}
-            className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
+            className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white "
           >
             <span className="absolute top-4 left-4 bg-amarilloPrimario text-black text-sm font-semibold px-2 py-1 rounded-full">
               {card.badge}
@@ -62,14 +62,14 @@ export function BackgroundGradientDemo() {
               width="400"
               className="object-contain mt-3 rounded-lg"
             />
-            <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+            <p className="text-base sm:text-xl text-black mt-4 mb-2">
               {card.title}
             </p>
 
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            <p className="text-sm text-neutral-600">
               {card.description}
             </p>
-            <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+            <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold">
               <span>Precio:</span>
               <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
                 {card.price}
