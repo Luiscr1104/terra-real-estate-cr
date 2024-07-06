@@ -8,8 +8,8 @@ export default function HomePage() {
     <>
       <HeroSection />
       <TypewriterEffectSmoothDemo />
-      <BackgroundGradientDemo />
       <CardStackDemo />
+      <BackgroundGradientDemo />
     </>
   );
 }

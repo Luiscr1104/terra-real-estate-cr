@@ -8,9 +8,8 @@ const HeroSection = () => {
         <Image
           src="/Slider1.png" // Reemplaza con la ruta de tu imagen
           alt="Hero Image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
+          fill
+          style={{ objectFit: "cover", objectPosition: "center" }}
           quality={100}
         />
         <div className="absolute inset-0"></div>

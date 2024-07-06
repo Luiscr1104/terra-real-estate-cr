@@ -61,6 +61,7 @@ export function BackgroundGradientDemo() {
               height="400"
               width="400"
               className="object-contain mt-3 rounded-lg"
+              priority={false}
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2">
               {card.title}
