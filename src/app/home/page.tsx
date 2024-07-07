@@ -1,3 +1,4 @@
+import  Agent  from "@/components/Agent";
 import HeroSection from "@/components/HeroSection";
 import { CardStackDemo } from "@/components/CardStackDemo";
 import { TypewriterEffectSmoothDemo } from "@/components/TypewriterEffecttSmoothDemo";
@@ -22,6 +23,7 @@ export default function HomePage() {
       </div>
       <CardStackDemo />
       <BackgroundGradientDemo />
+      <Agent />
     </>
   );
 }

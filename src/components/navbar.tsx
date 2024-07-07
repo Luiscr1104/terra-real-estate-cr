@@ -44,8 +44,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Redes Sociales */}
-        
+        {/* Redes Sociales */}        
       </div>
     </nav>
   );
