@@ -37,9 +37,9 @@ const CARDS = [
     content: (
       <p>
         Agradecidos con
-        <Highlight>José Manuel</Highlight>, por su destacada atención, ha sido
+        <Highlight> José Manuel</Highlight>, por su destacada atención, ha sido
         tan satisfactoria que le damos una calificación de
-        <Highlight> 5 estrellas. </Highlight> Para nosotros ha sido todo un
+        <Highlight> 5 estrellas </Highlight>. Para nosotros ha sido todo un
         gusto poderlo conocer.
       </p>
     ),
@@ -51,11 +51,11 @@ const CARDS = [
     content: (
       <p>
         Estamos muy contentos con la inversión
-        <Highlight>los precios</Highlight>y las
-        <Highlight>facilidades</Highlight>
-        hacen que la compra sea más sencilla Gracias primero a Dios y después a
+        <Highlight> los precios </Highlight>y las
+        <Highlight> facilidades </Highlight>
+         hacen que la compra sea más sencilla Gracias primero a Dios y después a
         José Manuel por llevarnos a este
-        <Highlight>bello lugar</Highlight>
+        <Highlight> bello lugar</Highlight>
       </p>
     ),
   },
@@ -65,8 +65,8 @@ const CARDS = [
     designation: "5 Estrellas",
     content: (
       <p>
-        Excelente lugar para <Highlight>comprar</Highlight>. El anfitrión de
-        <Highlight>Terra</Highlight>es un pilar fundamental en este tipo de
+        Excelente lugar para<Highlight> comprar </Highlight>. El anfitrión de
+        <Highlight> Terra</Highlight> es un pilar fundamental en este tipo de
         proyectos.
       </p>
     ),

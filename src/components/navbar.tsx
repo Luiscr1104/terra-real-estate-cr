@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaYoutube, FaHammer, FaMapMarkedAlt } from "react-icons/fa";
 import Image from "next/image";
+import { socialLinks }  from "../components/socialLinks";
 
 
 const links = [
@@ -11,11 +12,6 @@ const links = [
   { name: "Construcción", href: "/builds", icon: <FaHammer /> },
 ];
 
-const socialLinks = [
-  { name: "Facebook", href: "https://facebook.com", icon: <FaFacebook size={38} /> },
-  { name: "Instagram", href: "https://facebook.com", icon: <FaInstagram size={40} /> },
-  { name: "YouTube", href: "https://facebook.com", icon: <FaYoutube size={48} /> },
-];
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -49,21 +45,7 @@ export default function Navbar() {
         </div>
 
         {/* Redes Sociales */}
-        <div className="flex items-center">
-          {socialLinks.map((link) => (
-            <Link href={link.href} key={link.name}>
-              <div
-                className={`flex mx-1.5 sm:mx-2 ${
-                  pathname === link.href
-                    ? "text-verdePrimario"
-                    : "hover:text-gray-800"
-                }`}
-              >
-                {link.icon && <span className="mr-2 mt-1">{link.icon}</span>}
-              </div>
-            </Link>
-          ))}
-        </div>
+        
       </div>
     </nav>
   );
