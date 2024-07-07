@@ -2,12 +2,11 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { FaBuilding, FaFacebook, FaHome, FaInstagram, FaYoutube, FaHammer, FaMapMarkedAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaHammer, FaMapMarkedAlt } from "react-icons/fa";
 import Image from "next/image";
 
 
 const links = [
-  { name: "Home", href: "/home", icon: <FaHome /> },
   { name: "Propiedades", href: "/properties", icon: <FaMapMarkedAlt /> },
   { name: "Construcción", href: "/builds", icon: <FaHammer /> },
 ];
